@@ -2,7 +2,6 @@
   display: flex;
   margin: 0 auto 0 20px;
   min-height: 250px;
-  text-shadow: 1px 1px 5px #830000;
 
   .content {
     & .content__hosts {
@@ -25,7 +24,6 @@
     font-weight: 300;
     font-size: 12px;
     margin-top: 30px;
-    text-shadow: none;
     opacity: 0;
     transition: transform 1s ease-in;
     transform: translateX(-200%);
