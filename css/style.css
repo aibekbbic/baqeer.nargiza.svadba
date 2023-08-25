@@ -290,7 +290,7 @@ legend {
 }
 
 .footer {
-  margin: 0 auto 60px 20px;
+  margin: 0 auto 100px 20px;
   opacity: 0;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
