@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  max-width: 250px;
+  height: 230px;
+  margin: 0 auto 0 20px;
+  row-gap: 9px;
+  opacity: 0;
+  transition: transform 1s ease-in;
+  transform: scale(0.1);
+
+  & div:nth-child(1) {
+    font-family: "Montserrat", sans-serif;
+  }
+  & div:nth-child(2) {
+    font-size: 29px;
+    font-family: "Caveat", cursive;
+    text-transform: uppercase;
+  }
+}
+.moveHeader {
+  opacity: 1;
+  transform: scale(1.1);
+}
